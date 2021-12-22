@@ -12,7 +12,7 @@ public class code
    if(arr[i]<min)
     min=arr[i];
    if(arr[i]-min>p)
-	p=arr[i]-min;
+    p=arr[i]-min;
   }
   System.out.print("The Max. Profit is "+p);
  }
