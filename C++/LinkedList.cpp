@@ -41,12 +41,7 @@ void addatbegin(int x)
 void addatend(int x)
 {
  if(head==NULL)
- {
-  Node *tmp=new Node;
-  tmp->data=x;
-  tmp->link=NULL;
-  head=tmp;
- }
+  addatbegin(x);
  else
  {
   Node *tmp=head;
