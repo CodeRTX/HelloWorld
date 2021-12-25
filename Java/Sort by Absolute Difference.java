@@ -20,7 +20,7 @@ public class CandidateCode
     arr[j]=sc.nextInt();
    int b[]=new int[n];
    for(j=0;j<n;j++)
-    b[j]=abso(k-arr[j]);
+    b[j]=Math.abs(k-arr[j]);
    for(j=0;j<n-1;j++)
    {
     for(v=j+1;v<n;v++)
@@ -47,11 +47,5 @@ public class CandidateCode
    System.out.println("");
   }
   sc.close();
- }
- static int abso(int x)
- {
-  if(x<0)
-   x=x*(-1);
-  return x;
  }
 }
